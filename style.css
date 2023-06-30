@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  #quotes {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #author {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #newQ {
+    background-color: #ff5f5f;
+  }
+  
+  #newQ:hover {
+    background-color: #ff3f3f;
+  }
+  
+  #tweet {
+    background-color: #1da1f2;
+  }
+  
+  #tweet:hover {
+    background-color: #0d8bf0;
+  }
+  
